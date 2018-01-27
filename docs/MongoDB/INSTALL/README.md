@@ -55,11 +55,11 @@ db.auth("root","password");
 ```
 db.createUser({user: "用户名", pwd: "密码",roles: [{ role: "readWrite", db: "集合名称" }]})
 ```
+防火墙开启 `27017` 端口
+```
+firewall-cmd --zone=public --add-port=27017/tcp --permanent
+```
 远程连接到某个集合
 ```
 mongo ip:port/集合名称
-```
-防火墙开启27017端口
-```
-firewall-cmd --zone=public --add-port=27017/tcp --permanent
 ```
