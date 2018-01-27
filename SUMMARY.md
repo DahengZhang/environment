@@ -6,6 +6,7 @@
 * [GitLab](docs/GitLab/README.md)
 * [MongoDB](docs/MongoDB/README.md)
 * [MySQL](docs/MySQL/README.md)
+    * [INSTALL](docs/MySQL/INSTALL/README.md)
 * [Nginx](docs/Nginx/README.md)
 * [Node](docs/Node/README.md)
 * [React](docs/React/README.md)
