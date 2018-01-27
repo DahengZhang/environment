@@ -5,6 +5,7 @@
 * [D3](docs/D3/README.md)
 * [GitLab](docs/GitLab/README.md)
 * [MongoDB](docs/MongoDB/README.md)
+    * [INSTALL](docs/MongoDB/INSTALL/README.md)
 * [MySQL](docs/MySQL/README.md)
     * [INSTALL](docs/MySQL/INSTALL/README.md)
 * [Nginx](docs/Nginx/README.md)

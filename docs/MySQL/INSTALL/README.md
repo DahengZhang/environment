@@ -32,7 +32,7 @@ tar -zxvf mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz -C /usr/local/
 
 mv /usr/local/mysql-5.7.21-linux-glibc2.12-x86_64 /usr/local/mysql
 ```
-## 安装
+## 配置
 在系统中给 `MySQL` 创建组与用户
 ```
 groupadd mysql
