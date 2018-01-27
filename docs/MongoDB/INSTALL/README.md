@@ -49,7 +49,7 @@ db.createUser({user: "root", pwd: "password",roles: [{ role: "userAdminAnyDataba
 ```
 use admin;
 
-db.auth("root","000000");
+db.auth("root","password");
 ```
 为某个库创建用户
 ```
