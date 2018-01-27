@@ -1,4 +1,4 @@
-# MySQL
+# 安装MySQL
 
 ## 准备
 在 `CentOS 7` 上安装　`MySQL5.7` ，系统中一般会预装 `mariadb`，查看系统中是否预装
