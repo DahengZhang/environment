@@ -91,3 +91,7 @@ FLUSH PRIVILEGES;
 ```
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
 ```
+远程登录MySQL
+```
+mysql -h ip -uroot -p
+```
