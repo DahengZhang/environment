@@ -43,7 +43,7 @@ mongo
 ```
 use admin;
 
-db.createUser({user: "root", pwd: "password",roles: [{ role: "userAdminAnyDatabase", db: "admin" }]})
+db.createUser({user: "root", pwd: "password",roles: [{ role: "userAdminAnyDatabase", db: "admin" }]});
 ```
 在 `admin` 集合中登录
 ```
@@ -53,7 +53,7 @@ db.auth("root","password");
 ```
 为某个库创建用户
 ```
-db.createUser({user: "用户名", pwd: "密码",roles: [{ role: "readWrite", db: "集合名称" }]})
+db.createUser({user: "用户名", pwd: "密码",roles: [{ role: "readWrite", db: "集合名称" }]});
 ```
 防火墙开启 `27017` 端口
 ```
