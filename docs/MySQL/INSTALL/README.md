@@ -30,7 +30,7 @@ wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-
 ```
 tar -zxvf mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz -C /usr/local/
 
-mv mysql-5.7.21-linux-glibc2.12-x86_64 mysql
+mv /usr/local/mysql-5.7.21-linux-glibc2.12-x86_64 /usr/local/mysql
 ```
 ## 安装
 在系统中给 `MySQL` 创建组与用户
